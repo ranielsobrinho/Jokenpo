@@ -62,4 +62,4 @@ else:
         #finalizando o jogo ou recomeçando o
         opcao = input("Pressione \'q\' para sair ou digite qualquer letra para jogar: ")
         if opcao == 'Q' or opcao == 'q':
-            break    
+            break
