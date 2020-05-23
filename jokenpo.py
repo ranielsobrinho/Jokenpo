@@ -1,5 +1,4 @@
 #importando módulos
-import emoji
 from  random import randint
 from time import sleep
 
@@ -14,7 +13,7 @@ else:
 #definindo os itens com emoji e criando um loop para o jogo
     while True:
 
-        itens = ((emoji.emojize(":fist:", use_aliases = True)), (emoji.emojize(":hand:", use_aliases = True)), (emoji.emojize(":v:", use_aliases = True)))
+        itens = ("pedra", "papel", "tesoura")
         maquina = randint(0, 2)
         print('''Escolha uma das opções:
         [ 0 ] PEDRA
