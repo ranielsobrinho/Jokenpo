@@ -13,14 +13,23 @@ else:
     sleep(2)
     while True:
         def empate():
+            '''
+            Aqui retorna empate caso as escolhas sejam as mesmas
+            '''
             if maquina == jogador:
                 print("DEU EMPATE!")
 
         def maquinaWins():
+            '''
+            Aqui armazena os parâmetros e retorna uma string dizendo que a maquina venceu
+            '''
             if maquina == "pedra" and jogador == "tesoura" or maquina == "papel" and jogador == "pedra" or maquina == "tesoura" and jogador == "papel":
                 print("EU VENCI!")
 
         def jogadorWins():
+            '''
+            Aqui retorna caso o jogador vença
+            '''
             if maquina == "pedra" and jogador == "papel" or maquina == "papel" and jogador == "tesoura" or maquina == "tesoura" and jogador == "pedra":
                 print("VOCÊ GANHOU!")
 
